@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShellTitleView", "ShellTitleView\ShellTitleView.csproj", "{92828DF7-BBAF-416E-B244-A12CCBEE4FD2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShellNavPageTitleView", "ShellNavPageTitleView\ShellNavPageTitleView.csproj", "{C1FEE824-F817-41B7-9B07-24A93D5D9D0C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{92828DF7-BBAF-416E-B244-A12CCBEE4FD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92828DF7-BBAF-416E-B244-A12CCBEE4FD2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{92828DF7-BBAF-416E-B244-A12CCBEE4FD2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C1FEE824-F817-41B7-9B07-24A93D5D9D0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1FEE824-F817-41B7-9B07-24A93D5D9D0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1FEE824-F817-41B7-9B07-24A93D5D9D0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1FEE824-F817-41B7-9B07-24A93D5D9D0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
