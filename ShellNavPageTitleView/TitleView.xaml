@@ -3,7 +3,22 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ShellNavPageTitleView.TitleView">
     <ContentView.Content>
-        <Label Text="Custom Title View" />
+        <Grid
+            ColumnDefinitions="32,*,32">
+            <Label
+                Text="&#x2630;"
+                FontSize="32"
+                VerticalTextAlignment="Center">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Menu_Tapped"/>
+                </Label.GestureRecognizers>
+            </Label>
+            <Label
+                Grid.Column="1"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Text="Custom Title View" />
+        </Grid>
 
     </ContentView.Content>
 </ContentView>

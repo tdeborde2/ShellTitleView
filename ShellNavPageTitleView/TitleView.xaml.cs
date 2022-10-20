@@ -6,4 +6,9 @@ public partial class TitleView : ContentView
 	{
 		InitializeComponent();
 	}
+
+    void Menu_Tapped(object sender, EventArgs e)
+    {
+		App.Shell.FlyoutIsPresented = !App.Shell.FlyoutIsPresented;
+    }
 }
